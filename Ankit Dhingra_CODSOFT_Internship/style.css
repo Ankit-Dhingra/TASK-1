@@ -1,0 +1,144 @@
+@font-face {
+    src: url(Gilroy-Regular.ttf);
+    font-family: 'Gilroy';
+}
+
+ul li {
+    list-style-type: none;
+}
+
+html, body {
+    background-image: url(https://media.istockphoto.com/id/182061790/photo/white-wooden-board-background.webp?b=1&s=612x612&w=0&k=20&c=MB_9_q_18-RHM1-MV3ZOUEVawM9CR2R8SV7-y6Ug7rM=);
+    /* background-repeat: ; */
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15%;
+    font-family: 'Gilroy';
+    color: #000000;
+}
+
+h2 {
+    line-height: 0px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    text-align: center;
+    background-color: #000000;
+}
+
+.navbar ul {
+    display: inline-flex;
+    color: floralwhite;
+}
+
+.navbar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.navbar ul li:hover {
+    background: floralwhite;
+    color: #000000;
+    border-radius: 3px;
+}
+.intro-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro-text {
+    font-size: 24px;
+    margin: 20px;
+    color: rgb(2, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.cta-btn {
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding: 30px 60px;
+    margin-left: 620px;
+    width: fit-content;
+}
+
+.cta-btn:hover {
+    background: rgb(54, 1, 1);
+}
+
+.social-icons {
+    display: flex;
+    font-size: 3rem;
+    margin-top: 0;
+    line-height: 0;
+    align-items: flex-end;
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+}
+.social-icons ul {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;           
+    padding: 0;
+    list-style-type: none;        
+    margin: 32px 32px;                    
+    width: 100%;                   
+}
+
+.social-icons ul li {
+    display: flex;                 
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons ul li a {
+    font-size: 3rem;
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.social-icons ul li a:hover {
+    transform: scale(1.2);
+}
+
+
+.footer {
+    background-color: black;
+    margin-top: 28%;
+}
+
+.legal-info{
+    color: floralwhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px 16px;
+}
+
+
